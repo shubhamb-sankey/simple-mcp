@@ -63,3 +63,4 @@ http://127.0.0.1:8000/mcp
 ## 5. Connect an MCP client
 
 Stay tuned to see this...
+Make sure you have NGROK installed in your system.
