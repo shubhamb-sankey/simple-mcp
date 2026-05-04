@@ -2,10 +2,10 @@
 
 ## Prerequisites
 
-| Tool | Version | Install |
-|---|---|---|
-| Python | 3.12+ | [python.org](https://www.python.org/downloads/) |
-| uv | latest | `pip install uv` or [docs.astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/) |
+| Tool   | Version | Install                                                                                          |
+| ------ | ------- | ------------------------------------------------------------------------------------------------ |
+| Python | 3.12+   | [python.org](https://www.python.org/downloads/)                                                  |
+| uv     | latest  | `pip install uv` or [docs.astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/) |
 
 ---
 
@@ -25,6 +25,16 @@ uv sync
 ```
 
 `uv sync` reads `pyproject.toml`, creates `.venv/` automatically, and installs all dependencies.
+
+### or
+
+```bash
+python -m venv .venv
+
+venv\Scripts\activate
+
+pip install .
+```
 
 ---
 
